@@ -1,3 +1,16 @@
+.link {
+    font-size: 1.55rem;
+    line-height: 1.5rem;
+    color: #8b049e70;
+}
+
+.linkDestacado {
+    color: #000000;
+    text-decoration: none; /* Remova o sublinhado padrão */
+    font-style: olique;
+    animation: blink 1s;
+    border-bottom: 3px solid #8b049e70; /* Define a cor, espessura e estilo do sublinhado */
+}
 .post {
     text-align: center;
     width: 282px;
@@ -18,10 +31,11 @@
 .titulo {
     font-family: var(--fonte-primaria);
     font-style: oblique;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     color: #8c049ea5;
     line-height: 1.75rem;
     margin: 1.5rem 0 1.75rem;
+    
 }
  
 .botaoLer {
@@ -49,7 +63,7 @@
     }
  
     .titulo {
-        font-weight: 600;
+        font-weight: 300;
     }
  
     .botaoLer {
