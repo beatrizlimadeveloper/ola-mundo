@@ -1,0 +1,31 @@
+.link {
+    font-size: 1.60rem;
+    line-height: 1.5rem;
+    color: #000000;
+    text-decoration: none;
+    font-style: olique;
+    animation: MenuLink_blink__SxNo4 1s;
+    border-bottom: 3px solid #8b049e70;
+}
+
+
+.linkDestacado {
+    color: #000000;
+    text-decoration: none; /* Remova o sublinhado padrão */
+    font-style: olique;
+    animation: blink 1s;
+    border-bottom: 3px solid #8b049e70; /* Define a cor, espessura e estilo do sublinhado */
+}
+
+
+@keyframes blink {
+    0% {
+        opacity: 1; /* Começa completamente visível */
+    }
+    50% {
+        opacity: 0; /* Torna-se completamente invisível a meio caminho */
+    }
+    100% {
+        opacity: 1; /* Volta a ficar completamente visível no final */
+    }
+}
